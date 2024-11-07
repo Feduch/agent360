@@ -327,7 +327,7 @@ class Agent:
             'subprocess': 'no',
             'user': '',
             'server': '',
-            'api_host': 'ingest.monitoring360.io',
+            'api_host': 'ingest.ninja360.ru',
             'api_path': '/v2/server/poll',
             'log_file': '/var/log/agent360.log',
             'log_file_mode': 'a',
