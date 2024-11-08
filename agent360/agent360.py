@@ -134,7 +134,7 @@ def hello(proto='https'):
         except AttributeError:
             hostname = socket.getfqdn()
         server_id = urlopen(
-            proto + '://' + agent.config.get('data', 'api_host') + '/hello.php',
+            proto + '://' + agent.config.get('data', 'api_host') + '/hello',
             data=urlencode({
                     'user': user_id,
                     'hostname': hostname,

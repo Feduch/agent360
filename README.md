@@ -24,7 +24,7 @@ You can install the default configuration of Agent360 on all Linux distributions
 3. Run the following command:
 
     ```sh
-    wget -q -N https://configs.ninja360.ru/agent360.sh && bash agent360.sh USERTOKEN
+    wget -q -N https://monitoring.ninja360.ru/configs/agent360.sh && bash agent360.sh USERTOKEN
     ```
 
 ## Automatic Installation (Windows)
@@ -45,7 +45,7 @@ To customize installation options, install Agent360 manually.
         ```sh
         apt-get install python3-dev python3-setuptools python3-pip
         pip3 install agent360
-        wget -O /etc/agent360.ini https://configs.ninja360.ru/agent360.ini
+        wget -O /etc/agent360.ini https://monitoring.ninja360.ru/agent360.ini
         ```
 
     - Fedora/CentOS version 6 or earlier (python 2.7):
@@ -53,7 +53,7 @@ To customize installation options, install Agent360 manually.
         ```sh
         yum install python-devel python-setuptools gcc
         easy_install agent360 netifaces psutil
-        wget -O /etc/agent360.ini https://configs.ninja360.ru/agent360.ini
+        wget -O /etc/agent360.ini https://monitoring.ninja360.ru/agent360.ini
         ```
 
     - Fedora/CentOS version 7 and later (python 3):
@@ -61,7 +61,7 @@ To customize installation options, install Agent360 manually.
         ```sh
         yum install python36-devel python36 gcc
         pip3 install agent360
-        wget -O /etc/agent360.ini https://configs.ninja360.ru/agent360.ini
+        wget -O /etc/agent360.ini https://monitoring.ninja360.ru/agent360.ini
         ```
 
 3. Find your USERTOKEN. To do so, [go to the servers page](https://monitoring.ninja360.ru/servers/overview) and then click the "Add server" button. You need this to generate a serverid.
