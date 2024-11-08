@@ -144,7 +144,7 @@ def hello(proto='https'):
             }).encode("utf-8")
            ).read().decode()
 
-    if len(server_id) == 24:
+    if len(server_id) == 36:
         print('Got server_id: %s' % server_id)
         open(token_filename, 'w').\
             write('[DEFAULT]\nuser=%s\nserver=%s\n' % (user_id, server_id))
